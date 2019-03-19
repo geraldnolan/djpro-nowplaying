@@ -1,11 +1,10 @@
-![Alt text](./images/nowplaying.svg)
+
 <img src="./images/nowplaying.svg">
 
 # djpro-nowplaying
 
 Creates a Now_Playing.txt of the tracks you are playing on DJ Pro 2
 
-![Alt text](Test)
 <img src="./images/render1552963771341-min.gif">
 
 ## Features
@@ -17,6 +16,17 @@ Creates a Now_Playing.txt of the tracks you are playing on DJ Pro 2
 
 ## Installation
 
+### Option 1: From install.sh
+
+```bash
+USAGE:
+    $ chmod +x install.sh 
+    $ ./install.sh
+
+```
+
+### Option 2: From source
+
 ### Step #1 — First of all download the get-pip file by running:
 
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -24,10 +34,6 @@ Creates a Now_Playing.txt of the tracks you are playing on DJ Pro 2
 ### Step #2 — Now run this file to install pip
 
     python get-pip.py
-
-
-
-### Option 1: From source
 
 ```bash
 $ git clone git@github.com:geraldnolan/djpro-nowplaying.git
@@ -69,13 +75,5 @@ $ cd nowplaying/
 $ 
 ```
 
-#### `install.sh`
 
-This is a handy script that automates a install pip and installs watch dog dependency.
 
-```bash
-USAGE:
-    $ chmod +x install.sh 
-    $ ./install.sh
-
-```
