@@ -1,0 +1,400 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/carevalue/Documents/GitHub/djpro-nowplaying
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 143
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 38
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Noltech
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 4039
+    content: c
+  - delay: 124
+    content: h
+  - delay: 219
+    content: m
+  - delay: 184
+    content: o
+  - delay: 111
+    content: d
+  - delay: 133
+    content: ' '
+  - delay: 938
+    content: +
+  - delay: 363
+    content: x
+  - delay: 256
+    content: ' '
+  - delay: 626
+    content: i
+  - delay: 184
+    content: 'n'
+  - delay: 82
+    content: s
+  - delay: 150
+    content: t
+  - delay: 88
+    content: a
+  - delay: 140
+    content: l
+  - delay: 145
+    content: l
+  - delay: 193
+    content: .
+  - delay: 113
+    content: s
+  - delay: 132
+    content: h
+  - delay: 383
+    content: "\r\n"
+  - delay: 5
+    content: "\e]7;file://L-A-C02TD0UAGTFM/Users/carevalue/Documents/GitHub/djpro-nowplaying\a$ "
+  - delay: 1955
+    content: .
+  - delay: 193
+    content: /
+  - delay: 458
+    content: i
+  - delay: 192
+    content: 'n'
+  - delay: 96
+    content: s
+  - delay: 124
+    content: t
+  - delay: 101
+    content: a
+  - delay: 127
+    content: l
+  - delay: 168
+    content: l
+  - delay: 438
+    content: .
+  - delay: 196
+    content: s
+  - delay: 292
+    content: h
+  - delay: 799
+    content: "\r\n"
+  - delay: 47
+    content: "\r\n--- Installing Pip --\r\n"
+  - delay: 12
+    content: "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\r\n                                 Dload  Upload   Total   Spent    Left  Speed\r\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0"
+  - delay: 606
+    content: "\r  7 1659k    7  127k    0     0   210k      0  0:00:07 --:--:--  0:00:07  210k"
+  - delay: 606
+    content: "\r100 1659k  100 1659k    0     0  1368k      0  0:00:01  0:00:01 --:--:-- 1369k\r\n"
+  - delay: 46
+    content: 'Password:'
+  - delay: 3667
+    content: "\r\n"
+  - delay: 36
+    content: "Collecting pip\r\n"
+  - delay: 512
+    content: "\e[?25l  Downloading https://files.pythonhosted.org/packages/d8/f3/413bab4ff08e1fc4828dfc59996d721917df8e8583ea85385d51125dceff/pip-19.0.3-py2.py3-none-any.whl (1.4MB)\r\n\r\e[K    0% |▎                               | 10kB 2.6MB/s eta 0:00:01"
+  - delay: 41
+    content: "\r\e[K    1% |▌                               | 20kB 450kB/s eta 0:00:03\r\e[K    2% |▊                               | 30kB 623kB/s eta 0:00:03"
+  - delay: 35
+    content: "\r\e[K    3% |█                               | 40kB 487kB/s eta 0:00:03"
+  - delay: 5
+    content: "\r\e[K    3% |█▏                              | 51kB 572kB/s eta 0:00:03\r\e[K    4% |█▌                              | 61kB 682kB/s eta 0:00:02\r\e[K    5% |█▊                              | 71kB 756kB/s eta 0:00:02"
+  - delay: 27
+    content: "\r\e[K    6% |██                              | 81kB 676kB/s eta 0:00:02\r\e[K    6% |██▏                             | 92kB 757kB/s eta 0:00:02"
+  - delay: 6
+    content: "\r\e[K    7% |██▍                             | 102kB 805kB/s eta 0:00:02\r\e[K    8% |██▋                             | 112kB 828kB/s eta 0:00:02"
+  - delay: 8
+    content: "\r\e[K    9% |███                             | 122kB 1.1MB/s eta 0:00:02"
+  - delay: 6
+    content: "\r\e[K    9% |███▏                            | 133kB 1.1MB/s eta 0:00:02\r\e[K    10% |███▍                            | 143kB 1.8MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    11% |███▋                            | 153kB 1.8MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    12% |███▉                            | 163kB 1.6MB/s eta 0:00:01\r\e[K    12% |████▏                           | 174kB 1.7MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    13% |████▍                           | 184kB 2.7MB/s eta 0:00:01\r\e[K    14% |████▋                           | 194kB 2.7MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    15% |████▉                           | 204kB 2.7MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    15% |█████                           | 215kB 2.3MB/s eta 0:00:01\r\e[K    16% |█████▎                          | 225kB 2.8MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    17% |█████▋                          | 235kB 2.9MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    18% |█████▉                          | 245kB 2.5MB/s eta 0:00:01\r\e[K    18% |██████                          | 256kB 2.8MB/s eta 0:00:01"
+  - delay: 7
+    content: "\r\e[K    19% |██████▎                         | 266kB 2.8MB/s eta 0:00:01\r\e[K    20% |██████▌                         | 276kB 2.8MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    21% |██████▉                         | 286kB 2.8MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    21% |███████                         | 296kB 2.4MB/s eta 0:00:01\r\e[K    22% |███████▎                        | 307kB 2.8MB/s eta 0:00:01"
+  - delay: 7
+    content: "\r\e[K    23% |███████▌                        | 317kB 2.7MB/s eta 0:00:01"
+  - delay: 7
+    content: "\r\e[K    24% |███████▊                        | 327kB 2.3MB/s eta 0:00:01\r\e[K    24% |████████                        | 337kB 2.6MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    25% |████████▎                       | 348kB 2.6MB/s eta 0:00:01\r\e[K    26% |████████▌                       | 358kB 2.6MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    27% |████████▊                       | 368kB 2.7MB/s eta 0:00:01"
+  - delay: 13
+    content: "\r\e[K    27% |█████████                       | 378kB 2.0MB/s eta 0:00:01\r\e[K    28% |█████████▏                      | 389kB 2.2MB/s eta 0:00:01"
+  - delay: 7
+    content: "\r\e[K    29% |█████████▍                      | 399kB 2.2MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    30% |█████████▊                      | 409kB 2.0MB/s eta 0:00:01\r\e[K    31% |██████████                      | 419kB 2.3MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    31% |██████████▏                     | 430kB 2.3MB/s eta 0:00:01\r\e[K    32% |██████████▍                     | 440kB 2.3MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    33% |██████████▋                     | 450kB 2.4MB/s eta 0:00:01"
+  - delay: 8
+    content: "\r\e[K    34% |███████████                     | 460kB 2.0MB/s eta 0:00:01\r\e[K    34% |███████████▏                    | 471kB 2.2MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    35% |███████████▍                    | 481kB 2.7MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    36% |███████████▋                    | 491kB 2.4MB/s eta 0:00:01\r\e[K    37% |███████████▉                    | 501kB 2.8MB/s eta 0:00:01"
+  - delay: 7
+    content: "\r\e[K    37% |████████████                    | 512kB 2.7MB/s eta 0:00:01\r\e[K    38% |████████████▍                   | 522kB 2.7MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    39% |████████████▋                   | 532kB 2.8MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    40% |████████████▉                   | 542kB 2.5MB/s eta 0:00:01\r\e[K    40% |█████████████                   | 552kB 2.8MB/s eta 0:00:01"
+  - delay: 7
+    content: "\r\e[K    41% |█████████████▎                  | 563kB 2.9MB/s eta 0:00:01"
+  - delay: 7
+    content: "\r\e[K    42% |█████████████▋                  | 573kB 2.5MB/s eta 0:00:01\r\e[K    43% |█████████████▉                  | 583kB 2.7MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    43% |██████████████                  | 593kB 2.8MB/s eta 0:00:01\r\e[K    44% |██████████████▎                 | 604kB 2.8MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    45% |██████████████▌                 | 614kB 2.9MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    46% |██████████████▊                 | 624kB 2.5MB/s eta 0:00:01\r\e[K    46% |███████████████                 | 634kB 2.8MB/s eta 0:00:01"
+  - delay: 8
+    content: "\r\e[K    47% |███████████████▎                | 645kB 2.6MB/s eta 0:00:01"
+  - delay: 7
+    content: "\r\e[K    48% |███████████████▌                | 655kB 2.2MB/s eta 0:00:01\r\e[K    49% |███████████████▊                | 665kB 2.6MB/s eta 0:00:01\r\e[K    49% |████████████████                | 675kB 2.7MB/s eta 0:00:01\r\e[K    50% |████████████████▏               | 686kB 2.7MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    51% |████████████████▌               | 696kB 2.7MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    52% |████████████████▊               | 706kB 2.4MB/s eta 0:00:01\r\e[K    52% |█████████████████               | 716kB 2.7MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    53% |█████████████████▏              | 727kB 2.7MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    54% |█████████████████▍              | 737kB 2.4MB/s eta 0:00:01\r\e[K    55% |█████████████████▊              | 747kB 2.9MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    55% |██████████████████              | 757kB 3.0MB/s eta 0:00:01\r\e[K    56% |██████████████████▏             | 768kB 3.0MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    57% |██████████████████▍             | 778kB 3.1MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    58% |██████████████████▋             | 788kB 2.7MB/s eta 0:00:01\r\e[K    59% |██████████████████▉             | 798kB 3.0MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    59% |███████████████████▏            | 808kB 3.2MB/s eta 0:00:01\r\e[K    60% |███████████████████▍            | 819kB 2.8MB/s eta 0:00:01\r\e[K    61% |███████████████████▋            | 829kB 3.3MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    62% |███████████████████▉            | 839kB 3.4MB/s eta 0:00:01\r\e[K    62% |████████████████████            | 849kB 3.4MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    63% |████████████████████▍           | 860kB 3.4MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    64% |████████████████████▋           | 870kB 3.0MB/s eta 0:00:01\r\e[K    65% |████████████████████▉           | 880kB 3.3MB/s eta 0:00:01\r\e[K    65% |█████████████████████           | 890kB 3.5MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    66% |█████████████████████▎          | 901kB 3.0MB/s eta 0:00:01\r\e[K    67% |█████████████████████▌          | 911kB 3.4MB/s eta 0:00:01\r\e[K    68% |█████████████████████▉          | 921kB 3.4MB/s eta 0:00:01\r\e[K    68% |██████████████████████          | 931kB 3.4MB/s eta 0:00:01\r\e[K    69% |██████████████████████▎         | 942kB 3.6MB/s eta 0:00:01"
+  - delay: 8
+    content: "\r\e[K    70% |██████████████████████▌         | 952kB 2.9MB/s eta 0:00:01\r\e[K    71% |██████████████████████▊         | 962kB 3.3MB/s eta 0:00:01\r\e[K    71% |███████████████████████         | 972kB 3.3MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    72% |███████████████████████▎        | 983kB 2.9MB/s eta 0:00:01\r\e[K    73% |███████████████████████▌        | 993kB 3.2MB/s eta 0:00:01\r\e[K    74% |███████████████████████▊        | 1.0MB 3.3MB/s eta 0:00:01\r\e[K    74% |████████████████████████        | 1.0MB 3.3MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    75% |████████████████████████▏       | 1.0MB 3.3MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    76% |████████████████████████▌       | 1.0MB 2.9MB/s eta 0:00:01\r\e[K    77% |████████████████████████▊       | 1.0MB 3.2MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    77% |█████████████████████████       | 1.1MB 3.3MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    78% |█████████████████████████▏      | 1.1MB 2.9MB/s eta 0:00:01\r\e[K    79% |█████████████████████████▍      | 1.1MB 3.3MB/s eta 0:00:01\r\e[K    80% |█████████████████████████▋      | 1.1MB 3.3MB/s eta 0:00:01\r\e[K    80% |██████████████████████████      | 1.1MB 3.3MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    81% |██████████████████████████▏     | 1.1MB 3.3MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    82% |██████████████████████████▍     | 1.1MB 2.9MB/s eta 0:00:01\r\e[K    83% |██████████████████████████▋     | 1.1MB 3.2MB/s eta 0:00:01\r\e[K    83% |██████████████████████████▉     | 1.1MB 3.2MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    84% |███████████████████████████▏    | 1.1MB 2.8MB/s eta 0:00:01\r\e[K    85% |███████████████████████████▍    | 1.2MB 3.3MB/s eta 0:00:01\r\e[K    86% |███████████████████████████▋    | 1.2MB 3.4MB/s eta 0:00:01\r\e[K    86% |███████████████████████████▉    | 1.2MB 3.4MB/s eta 0:00:01\r\e[K    87% |████████████████████████████    | 1.2MB 3.3MB/s eta 0:00:01"
+  - delay: 6
+    content: "\r\e[K    88% |████████████████████████████▎   | 1.2MB 2.9MB/s eta 0:00:01\r\e[K    89% |████████████████████████████▋   | 1.2MB 3.3MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    90% |████████████████████████████▉   | 1.2MB 3.4MB/s eta 0:00:01\r\e[K    90% |█████████████████████████████   | 1.2MB 3.0MB/s eta 0:00:01\r\e[K    91% |█████████████████████████████▎  | 1.2MB 3.4MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    92% |█████████████████████████████▌  | 1.2MB 3.4MB/s eta 0:00:01\r\e[K    93% |█████████████████████████████▊  | 1.3MB 3.4MB/s eta 0:00:01"
+  - delay: 7
+    content: "\r\e[K    93% |██████████████████████████████  | 1.3MB 3.2MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    94% |██████████████████████████████▎ | 1.3MB 2.8MB/s eta 0:00:01\r\e[K    95% |██████████████████████████████▌ | 1.3MB 3.1MB/s eta 0:00:01\r\e[K    96% |██████████████████████████████▊ | 1.3MB 3.2MB/s eta 0:00:01"
+  - delay: 5
+    content: "\r\e[K    96% |███████████████████████████████ | 1.3MB 2.9MB/s eta 0:00:01\r\e[K    97% |███████████████████████████████▎| 1.3MB 3.2MB/s eta 0:00:01\r\e[K    98% |███████████████████████████████▌| 1.3MB 3.2MB/s eta 0:00:01\r\e[K    99% |███████████████████████████████▊| 1.3MB 3.2MB/s eta 0:00:01\r\e[K    99% |████████████████████████████████| 1.4MB 3.5MB/s eta 0:00:01\r\e[K    100% |████████████████████████████████| 1.4MB 3.3MB/s \r\n"
+  - delay: 241
+    content: "\e[?25hInstalling collected packages: pip\r\n"
+  - delay: 1143
+    content: "Successfully installed pip-19.0.3\r\n"
+  - delay: 65
+    content: "Collecting watchdog\r\n"
+  - delay: 241
+    content: "Requirement already satisfied: argh>=0.24.1 in /Library/Python/2.7/site-packages (from watchdog) (0.26.2)\r\nRequirement already satisfied: pathtools>=0.1.1 in /Library/Python/2.7/site-packages (from watchdog) (0.1.2)\r\nRequirement already satisfied: PyYAML>=3.10 in /Library/Python/2.7/site-packages (from watchdog) (3.13)\r\n"
+  - delay: 86
+    content: "Installing collected packages: watchdog\r\n"
+  - delay: 77
+    content: "Successfully installed watchdog-0.9.0\r\n"
+  - delay: 177
+    content: s
+  - delay: 231
+    content: r
+  - delay: 256
+    content: c
+  - delay: 203
+    content: "\r\n\e]7;file://L-A-C02TD0UAGTFM/Users/carevalue/Documents/GitHub/djpro-nowplaying/src\a$ "
+  - delay: 1330
+    content: p
+  - delay: 470
+    content: 'y'
+  - delay: 290
+    content: t
+  - delay: 87
+    content: h
+  - delay: 209
+    content: o
+  - delay: 199
+    content: 'n'
+  - delay: 209
+    content: ' '
+  - delay: 399
+    content: 'n'
+  - delay: 186
+    content: o
+  - delay: 95
+    content: w
+  - delay: 502
+    content: p
+  - delay: 207
+    content: l
+  - delay: 65
+    content: a
+  - delay: 191
+    content: 'y'
+  - delay: 126
+    content: i
+  - delay: 165
+    content: 'n'
+  - delay: 84
+    content: g
+  - delay: 316
+    content: .
+  - delay: 1079
+    content: p
+  - delay: 321
+    content: 'y'
+  - delay: 321
+    content: "\r\n"
+  - delay: 5201
+    content: "ABBA - Kisses Of Fire\r\n"
+  - delay: 20949
+    content: "NWYR - Ends Of Time\r\n"
+  - delay: 933
+    content: ^C
+  - delay: 321
+    content: "\r\n"
+

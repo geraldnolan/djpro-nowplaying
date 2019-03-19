@@ -28,19 +28,19 @@ class EventHandler(FileSystemEventHandler):
         
 
 if __name__ == "__main__":
-    path = sys.argv[1] if len(sys.argv) > 1 else os.path.expanduser("~/Music/djay Pro 2/djay Media Library.djayMediaLibrary/")
+    path = sys.argv[1] if len(sys.argv) > 1 else os.path.expanduser("~/Music/djay Pro 2/djay Media Library.djayMediaLibrary")
    
-    with open(path + "/NowPlaying.txt","r") as infile:
+    #with open(path + "/NowPlaying.txt","r") as infile:
 
-        nowplaying = infile.read();
+    #nowplaying = infile.read();
 
-        event_handler = EventHandler()
-        observer = Observer()
-        observer.schedule(event_handler, path, recursive=False)
-        observer.start()
-        try:
-            while True:
-                time.sleep(1)
-        except KeyboardInterrupt:
-            observer.stop()
-        observer.join()
+    event_handler = EventHandler()
+    observer = Observer()
+    observer.schedule(event_handler, path, recursive=False)
+    observer.start()
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()
